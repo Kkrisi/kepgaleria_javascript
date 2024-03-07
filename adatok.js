@@ -1,3 +1,5 @@
+
+
 export const KEPEK = [
     {
         kep: "kepek/DSC7681.jpeg",

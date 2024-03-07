@@ -3,8 +3,11 @@ import { htmlOsszeAllit } from "./fuggvenyek.js";
 
 /*1. feladat:  galéria kisképeinek elhelyezése */
 /* fogd meg a .galeria elemet */
+const galeriaELem = document.getElementsByClassName("galeria")[0]
+console.log(galeriaELem)
 
 /* írd bele az összeálíltott html képsorozatot */
+galeriaELem.innerHTML += htmlOsszeAllit(KEPEK)
 
 
 /*2. feladat  A .nagykep divben lévő img elem megfogása */
